@@ -15,18 +15,22 @@ body
 }
 .navbar
 {
-    height: 5%;
+    /* height: 5%; */
     width: 100%;
+    margin-top: 2%;
     display: flex;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     /* position: fixed; */
     background-color:aquamarine;
-    padding: 2%;
     border-radius: 10pt;
 }
 .mid
 {
     margin-top: 2%;
+}
+.icon .logo
+{
+    padding: 5%;
 }
 h2
 {
@@ -38,7 +42,7 @@ h2
     width: 100%;
     justify-content: right;
 
-    align-items: right;
+    align-items: center;
 }
 ul li{
     list-style: none;

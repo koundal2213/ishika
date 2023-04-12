@@ -94,13 +94,18 @@ button{
 }
 nav ul li a:hover
 {
-    transform: translate(0,-8px);
+    /* transform: translate(0,-8px); */
     font-weight: bolder;
-    color:azure;
+    color:black;
+    border-bottom: 1px solid black;
 
 }
 button:hover{
-    transform:translate3d(5px,10px,5px);
+    /* transform:translate3d(5px,10px,5px); */
     background-color:orange;
     color:white;
+}
+.nxt1 .nxt{
+
+width: max-content;
 }
